@@ -3,7 +3,7 @@ const http = require('http');
 
 const foo = () => {
   // checkin from blured2
-  console.log('foo-blured2-123');
+  console.log('foo-blured2-123*456');
   util('bar2');
 }
 
