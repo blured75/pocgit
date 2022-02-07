@@ -1,5 +1,5 @@
-const util = require('./util');
-const http = require('http');
+const util = require('./util')
+const http = require('http')
 
 const foo = () => {
   // checkin from blured2
