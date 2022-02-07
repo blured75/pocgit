@@ -3,7 +3,7 @@ const http = require('http');
 
 const foo = () => {
   // checkin from blured2
-  console.log('foo+blured2');
+  console.log('foo blured2');
   util('bar2');
 }
 
