@@ -2,7 +2,8 @@ const util = require('./util');
 const http = require('http');
 
 const foo = () => {
-  console.log('foo');
+  // checkin from blured2
+  console.log('foo+blured2');
   util('bar2');
 }
 
