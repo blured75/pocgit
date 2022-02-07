@@ -12,7 +12,6 @@ const port = 8889;
 const host = 'localhost';
 
 const requestListener = function (req, res) {
-  console.log('**** requestListener ****');
   res.writeHead(200);
   res.end("My first server!");
 };
