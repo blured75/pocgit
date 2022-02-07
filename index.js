@@ -3,7 +3,7 @@ const http = require('http');
 
 const foo = () => {
   console.log('foo');
-  util('test');
+  util('bar2');
 }
 
 foo();
