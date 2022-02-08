@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "cp ./src/* ./dist",
+    "build": "mkdir -p ./dist; cp ./src/* ./dist",
     "start": "node dist/index.js",
     "dev": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
